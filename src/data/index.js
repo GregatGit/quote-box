@@ -1,6 +1,7 @@
 export const starter = {quote: "The best way to find out Kitty is to get her out on the ocean. If anything is going to happen, it's going to happen out there.", author: "Captain Ron"}
 
 export const quotes = [
+  {quote: "The best way to find out Kitty is to get her out on the ocean. If anything is going to happen, it's going to happen out there.", author: "Captain Ron"},
   {quote: "Live as if you were to die tomorrow. Learn as if you were to live forever.", author:  "Mahatma Gandi"},
   {quote: "Strive not to be a success, but rather to be of value", author:  "Albert Einstein"},
   {quote: "Two roads diverged in a wood, and I took the one less traveled by, And that has made all the difference.", author:  "Robert Frost"},
@@ -48,7 +49,7 @@ export const quotes = [
   {quote: "When I was 5 years old, my mother always told me that happiness was the key to life.  When I went to school, they asked me wauthor: hat I wanted to be when I grew up.  I wrote down ‘happy’.  They told me I didn’t understand the assignment, and I told them tauthor: hey didn’t understand life.", author:  "John Lennon"},
   {quote: "Fall seven times and stand up eight.", author:  "Japanese Proverb"},
   {quote: "When one door of happiness closes, another opens, but often we look so long at the closed door that we do not see the one that hauthor: as been opened for us.", author:  "Helen Keller"},
-  {quote: "Everything has beauty, but not everyone can see.", author:  "Confucius"}
+  {quote: "Everything has beauty, but not everyone can see.", author:  "Confucius"},
   {quote: "How wonderful it is that nobody need wait a single moment before starting to improve the world.", author:  "Anne Frank"},
   {quote: "When I let go of what I am, I become what I might be.", author:  "Lao Tzu"},
   {quote: "Life is not measured by the number of breaths we take, but by the moments that take our breath away.", author:  "Maya Angelou"},
