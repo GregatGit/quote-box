@@ -3,6 +3,7 @@ import DisplayQuote from './components/DisplayQuote'
 
 import { randomiser } from './utils'
 import { quotes } from './data'
+import './styles.scss'
 
 function App() {
   let startIndex = randomiser(quotes.length, [])
@@ -22,33 +23,34 @@ function App() {
 
   const quote = {
     quote: quotes[index].quote,
-    author: quotes[index].author
+    author: quotes[index].author,
   }
 
-  const href = "https://twitter.com/intent/tweet?text=" +
-  `${quote.quote} ~ ${quote.author}` 
+  const href =
+    'https://twitter.com/intent/tweet?text=' +
+    `${quote.quote} ~ ${quote.author}`
 
   return (
     <div className="App" id="quote-box">
-      <header className="App-header">
-        <h1>Quote Box</h1>
-      </header>
-      <DisplayQuote {...quote} />
-      <button id="new-quote" onClick={changeQuotesArr}>
-        New Quote
-      </button>
       
-      <div>
-        <a
-          id="tweet-quote"
-          className="twitter-share-button"
-          href={href}
-          data-size="large"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Tweet
-        </a>
+      <div className="mainBox">
+        <header className="App-header"><h1>Quote Box</h1></header>
+        <DisplayQuote {...quote} />
+        <button id="new-quote" onClick={changeQuotesArr}>
+          New Quote
+        </button>
+
+        <div>
+          <a
+            id="tweet-quote"
+            href={href}
+            data-size="large"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Tweet
+          </a>
+        </div>
       </div>
     </div>
   )
