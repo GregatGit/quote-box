@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import DisplayQuote from './components/DisplayQuote'
 
-
 import { randomiser } from './utils'
 import { quotes } from './data'
 
@@ -21,23 +20,25 @@ function App() {
     }
   }
 
-
+  const quote = {
+    quote: quotes[index].quote,
+    author: quotes[index].author
+  }
 
   const href = "https://twitter.com/intent/tweet?text=" +
-  `${quotes[index].quote} ~ ${quotes[index].author}` 
+  `${quote.quote} ~ ${quote.author}` 
 
   return (
     <div className="App" id="quote-box">
       <header className="App-header">
         <h1>Quote Box</h1>
       </header>
-      <DisplayQuote quote={quotes[index].quote} author={quotes[index].author} />
+      <DisplayQuote {...quote} />
       <button id="new-quote" onClick={changeQuotesArr}>
         New Quote
       </button>
       
       <div>
-        <h3>tweet test</h3>
         <a
           id="tweet-quote"
           className="twitter-share-button"
