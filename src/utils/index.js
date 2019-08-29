@@ -9,6 +9,5 @@ export function randomiser(range, usedArr, lastIndex) {
       return 1
     }
   } while (usedArr.indexOf(num) !== -1 || lastIndex === num)
-  console.log('random: ', usedArr.indexOf(num))
   return num
 }
