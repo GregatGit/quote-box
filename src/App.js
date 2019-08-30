@@ -27,10 +27,6 @@ function App() {
     author: quotes[index].author,
   }
 
-  const href =
-    'https://twitter.com/intent/tweet?text=' +
-    `${quote.quote} ~ ${quote.author}`
-
   return (
     <div className="App" id="quote-box">
       <div className="mainBox">
@@ -41,7 +37,7 @@ function App() {
         <div>
           <ButtonTweet {...quote} />
           <button id="new-quote" onClick={changeQuotesArr}>
-            New Quote
+            <b>NEW QUOTE</b>
           </button>
         </div>
       </div>

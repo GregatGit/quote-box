@@ -1,7 +1,7 @@
 import React from 'react'
 
 const ButtonTweet = ({ quote, author }) => {
-  const href = 'https://twitter.com/intent/tweet?text=' + `${quote} ~ ${author}`
+  const href = `https://twitter.com/intent/tweet?text=${quote} ~ ${author}`
   return (
     <button>
       <a
@@ -9,12 +9,13 @@ const ButtonTweet = ({ quote, author }) => {
         href={href}
         data-size="large"
         target="_blank"
-        rel="noopener"
+        rel="noopener noreferrer"
       >
-        <i class="fa fa-twitter " aria-hidden="true">
+      
+        <i class="fa fa-twitter fa-4x " aria-hidden="true">
           {' '}
-          tweet it
         </i>
+
       </a>
     </button>
   )
