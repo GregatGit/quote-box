@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import DisplayQuote from './components/DisplayQuote'
+import ButtonTweet from './components/ButtonTweet'
 
 import { randomiser } from './utils'
 import { quotes } from './data'
@@ -32,24 +33,16 @@ function App() {
 
   return (
     <div className="App" id="quote-box">
-      
       <div className="mainBox">
-        <header className="App-header"><h1>Quote Box</h1></header>
+        <header className="App-header">
+          <h1>Quote Box</h1>
+        </header>
         <DisplayQuote {...quote} />
-        <button id="new-quote" onClick={changeQuotesArr}>
-          New Quote
-        </button>
-
         <div>
-          <a
-            id="tweet-quote"
-            href={href}
-            data-size="large"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Tweet
-          </a>
+          <ButtonTweet {...quote} />
+          <button id="new-quote" onClick={changeQuotesArr}>
+            New Quote
+          </button>
         </div>
       </div>
     </div>
