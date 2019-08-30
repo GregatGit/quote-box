@@ -1,29 +1,42 @@
-h1 {
-  text-align: center;
+body {
+  background-color: #eeebe6;
 }
-
 .mainBox {
-  background-color: #3737cc;
+  position: relative;
+  top: 4rem;
+  background-color: #3d3dd9;
   max-width: 700px;
+  height: auto;
   text-align: center;
   margin: auto;
   border-radius: 6px;
   box-shadow: 5px 10px #888888;
+
+  header {
+    padding-top: 1rem;
+  }
+
+  #text {
+    color: #1c1c1a;
+  }
 
   button {
     height: 60px;
     width: 100px;
     border-radius: 10px;
     background: #ead936;
-    margin: 1rem
-  }
-  a {
-    display: inline-block;
-    height: 60px;
-    width: 100px;
-    border-radius: 10px;
-    background: #ead936;
     margin: 1rem;
+    transition: all .2s ease-in-out;
+    &:hover {
+      opacity: .95;
+      transform: scale(1.1);
+    }
   }
-  
+}
+footer {
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
 }

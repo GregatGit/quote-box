@@ -45,6 +45,9 @@ function App() {
           </button>
         </div>
       </div>
+      <div>
+      <footer>a freeCodeCamp challenge by Greg Duncan</footer>
+      </div>
     </div>
   )
 }
