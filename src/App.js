@@ -33,7 +33,7 @@ function App() {
         <header className="App-header">
           <h1>Quote Box</h1>
         </header>
-        <i onClick={changeQuotesArr} className="fa fa-refresh " aria-hidden="true"></i>
+        <i id="newQuote" onClick={changeQuotesArr} className="fa fa-refresh " aria-hidden="true"></i>
         <DisplayQuote {...quote} />
         <div>
           <ButtonTweet {...quote} />
