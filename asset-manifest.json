@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/quote-box/static/css/main.d0d36c6b.chunk.css",
-    "main.js": "/quote-box/static/js/main.c423f674.chunk.js",
-    "main.js.map": "/quote-box/static/js/main.c423f674.chunk.js.map",
+    "main.css": "/quote-box/static/css/main.676a991f.chunk.css",
+    "main.js": "/quote-box/static/js/main.37751463.chunk.js",
+    "main.js.map": "/quote-box/static/js/main.37751463.chunk.js.map",
     "runtime~main.js": "/quote-box/static/js/runtime~main.2d633562.js",
     "runtime~main.js.map": "/quote-box/static/js/runtime~main.2d633562.js.map",
     "static/js/2.2e59ca9b.chunk.js": "/quote-box/static/js/2.2e59ca9b.chunk.js",
     "static/js/2.2e59ca9b.chunk.js.map": "/quote-box/static/js/2.2e59ca9b.chunk.js.map",
     "index.html": "/quote-box/index.html",
-    "precache-manifest.f31930bd1b74a20378bb934358b337ca.js": "/quote-box/precache-manifest.f31930bd1b74a20378bb934358b337ca.js",
+    "precache-manifest.2f868ca6d29a114379b216f7e9c26931.js": "/quote-box/precache-manifest.2f868ca6d29a114379b216f7e9c26931.js",
     "service-worker.js": "/quote-box/service-worker.js",
-    "static/css/main.d0d36c6b.chunk.css.map": "/quote-box/static/css/main.d0d36c6b.chunk.css.map"
+    "static/css/main.676a991f.chunk.css.map": "/quote-box/static/css/main.676a991f.chunk.css.map"
   }
 }
