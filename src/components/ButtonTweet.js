@@ -12,7 +12,7 @@ const ButtonTweet = ({ quote, author }) => {
         rel="noopener noreferrer"
       >
       
-        <i class="fa fa-twitter fa-4x " aria-hidden="true">
+        <i className="fa fa-twitter fa-4x " aria-hidden="true">
           {' '}
         </i>
 
