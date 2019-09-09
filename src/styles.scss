@@ -6,7 +6,7 @@ body {
 .mainBox {
   position: relative;
   top: 4rem;
-  background-color: #4e4ed3;
+  background-color:hsl(198, 64%, 80%);;
   max-width: 700px;
   height: auto;
   text-align: center;
@@ -42,6 +42,11 @@ body {
       opacity: .95;
       transform: scale(1.1);
     }
+  }
+
+  #quote {
+    padding-right: 16px;
+    padding-left: 14px;
   }
 }
 footer {

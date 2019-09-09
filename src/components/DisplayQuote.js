@@ -4,8 +4,8 @@ import { starter } from '../data'
 const DisplayQuote = ({ quote, author }) => {
   return (
     <div>
-      <h2 id="text">{quote}</h2>
-      <p id="author">{author}</p>
+      <h2 id="text"><i id="quote" className="fa fa-quote-left"></i>{quote}</h2>
+      <p id="author"><i>{author}</i></p>
     </div>
   )
 }
